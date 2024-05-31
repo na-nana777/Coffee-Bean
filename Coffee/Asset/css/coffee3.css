@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+header{
+    height: 100px;
+    position: relative;
+}
+
+nav{
+    width:50%;
+    height:50px;
+    position:absolute;
+    right:0%;
+    font-weight: bold;
+}
+
+nav ul li{
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    color:black;
+    text-decoration: none;
+}
+
+.logo{
+    color:rgb(189, 146, 118);
+    width:200px;
+    height:65px;
+    position:absolute;
+    left: 40px;
+    bottom:20px;
+}
+
+.hero{
+    height:600px;
+    position:relative;
+    background-image: url(/Users/hatananami/Desktop/images/banner-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-details{
+    width:50%;
+    height:300px;
+    position:absolute;
+    bottom: 200px;
+    left: 120px;
+    color:white;
+}
+
+.hero-details p{
+    text-transform: uppercase;
+    color:rgb(226, 188, 144);
+    font-size:50px;
+    font-weight: bold;
+    position:absolute;
+    top:10%;
+}
+
+.hero-details span{
+    color:rgb(132, 92, 79);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.try{
+    position: absolute;
+    top:50%;
+}
+
+.lm{
+    background-color: rgb(77, 60, 52);
+    color: white;
+    width:100px;
+    height:30px;
+    padding: 10px;
+    font-weight: bold;
+    position:absolute;
+    top:65%;
+}
+
+.banner1{
+    width:85%;
+    height:300px;
+    margin: 0 auto;
+    position:relative;
+    margin-top:50px;
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+.banner1 article{
+    width:47%;
+    height:100%;
+    position: absolute;
+}
+
+.innerbanner-1-1{
+    left:0px;
+    background-image: url(/Users/hatananami/Desktop/images/ads-img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.innerbanner-1-1 h2{
+    text-transform: uppercase;
+    color: white;
+}
+
+.innerbanner-title{
+    color:white;
+    width:50%;
+    position:absolute;
+    left:10%;
+    top:20%;
+    text-shadow:2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.readmore{
+    color:white;
+    position: absolute;
+    left: 10%;
+    top: 55%;
+    text-shadow:2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.innerbanner-1-2{
+    right:0px;
+    background-image: url(/Users/hatananami/Desktop/images/ads-img3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner2{
+    width:400px;
+    height:80px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+
+#banner-title{
+    color:black;
+    font-size:22px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#whh{
+    text-align: center;
+    color:rgb(207, 157, 92);
+    font-weight: bold;
+}
+
+.banner3{
+    width:85%;
+    height:800px;
+    margin-top: 25px;
+    margin: 0 auto;
+    position:relative;
+    box-sizing: border-box;
+}
+
+.innerbanner3{
+    width:23.8%;
+    height:48%;
+    float:left;
+    margin-left:1%;
+    position:relative;
+    padding-bottom: 20px;
+}
+
+.price-product-name{
+    width:100%;
+    height:22%;
+    position:absolute;
+    bottom:0%;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-top:4%;
+    box-sizing: border-box;
+}
+
+.picture-product{
+    width:100%;
+    height:80%;
+    position:absolute;
+    top:0%;
+}
+#picture{
+    width:100%;
+    height:100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.banner4{
+    width:85%;
+    height:350px;
+    margin: 0 auto;
+    position:relative;
+    margin-top:50px;
+    background-image: url(/Users/hatananami/Desktop/images/discount-img.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+
+.innerbanner4{
+    width:40%;
+    height:40%;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+
+.innerbanner4-title {
+    text-transform: uppercase;
+    position: absolute;
+    top:15%;
+}
+
+.wb{
+    position: absolute;
+    top: 10%;
+    left:27%;
+}
+
+.vp{
+    width:30%;
+    height:30%;
+    position: absolute;
+    top:60%;
+    left:32%;
+    padding: 2%;
+    padding-left: 3%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.banner5{
+    width:400px;
+    height:80px;
+    margin: 0 auto;
+    margin-top:100px;
+}
+
+.banner6{
+    width:85%;
+    height:400px;
+    margin: 0 auto;
+    position:relative;
+    box-sizing: border-box;
+}
+.innerbanner6{
+    width:23.8%;
+    height:100%;
+    float:left;
+    margin-left:1%;
+    position:relative;
+}
+
+.banner7{
+    width:85%;
+    height:650px;
+    margin: 0 auto;
+    position:relative;
+    margin-top:50px;
+}
+
+.banner7 article{
+    width:48%;
+    height:47%;
+    position:absolute;
+}
+
+.innerbanner7-1 {
+    left:0%;
+    background-image: url(/Users/hatananami/Desktop/images/ads-img3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.innerbanner7-2 {
+    right:0px;
+    background-image: url(/Users/hatananami/Desktop/images/ads-img4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.innerbanner7-3 {
+    left:0%;
+    bottom:0%;
+    background-image: url(/Users/hatananami/Desktop/images/ads-img5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.innerbanner7-4 {
+    right:0%;
+    bottom:0%;
+    background-image: url(/Users/hatananami/Desktop/images/ads-img6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner8{
+    width:400px;
+    height:80px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+.banner9{
+    width:85%;
+    height:600px;
+    margin: 0 auto;
+    position:relative;
+    margin-top:10px;
+}
+
+.banner9 article{
+    width:49%;
+    height:100%;
+    position: absolute; 
+    padding: 3%;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.innerbanner9-1{
+    left:0px;
+    background-color: rgb(239, 239, 239);
+}
+
+.innerbanner9-2{
+    right:0px;
+    background-color: rgb(239, 239, 239);
+}
+
+.inputsize{
+    width:97%;
+    height:7%;
+    border:none;
+}
+
+footer{
+    height: 450px;
+    position: relative;
+    margin-top: 70px;
+    background-image: url(/Users/hatananami/Desktop/images/footer-img.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+
+.footer1{
+    width:100%;
+    height:80%;
+    margin: 0 auto;
+    position:relative;
+}
+
+.innerfooter {
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.footercolor{
+    color:rgb(164, 134, 96);
+}
+
+.footer2{
+    width:100%;
+    height:80px;
+    position:absolute;
+    bottom:0%;
+    background-color: rgb(32, 15, 4);
+}
+
+footer article{
+    width:24.5%;
+    height:100%;
+    float:left;
+}
+
+.sns{
+    width:10%;
+    height:90%;
+    position:absolute;
+    left:45%;
+    top:35%;
+}
+
+.footername{
+    position:absolute;
+    left: 10%;
+    top:10%;
+}
+
+.icons{
+    width:30px;
+    height:30px;
+    float:left;
+}
+
+.kredo{
+    position: absolute;
+    right:20%;
+    top:35%;
+}
+
+.search{
+    border:none;
+}
+
+.hr{
+    background-color: orange;
+    height:1px;
+}
